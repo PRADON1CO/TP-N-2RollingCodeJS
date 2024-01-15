@@ -1,3 +1,8 @@
-const NumAleatorio = Math.round(Math.random() * 98) + 1;
+let NumAleatorio;
 
-document.write(NumAleatorio);
+do{
+    NumAleatorio = Math.round(Math.random() * 98) + 1;
+    
+    alert(NumAleatorio);
+
+}while(confirm('¿Desea generar otro numero alatorio?'));
